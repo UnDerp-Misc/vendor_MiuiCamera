@@ -22,8 +22,8 @@ PRODUCT_PACKAGES += \
 # etc files
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/MiuiCamera/product/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
 
-# lib64 files
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/MiuiCamera/product/lib64,$(TARGET_COPY_OUT_PRODUCT)/lib64)
+# Specific files
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/MiuiCamera/product/priv-app/MiuiCamera/lib/arm,$(TARGET_COPY_OUT_PRODUCT)/priv-app/MiuiCamera/lib/arm)
 
 # Specific files
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/MiuiCamera/product/priv-app/MiuiCamera/lib/arm64,$(TARGET_COPY_OUT_PRODUCT)/priv-app/MiuiCamera/lib/arm64)
