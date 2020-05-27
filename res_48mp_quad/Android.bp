@@ -1,8 +1,0 @@
-android_app {
-    name: "MiuiCamera-res-48mp-quad",
-    resource_dirs: ["res"],
-    dex_preopt: {
-        enabled: false,
-    },
-    installable: false
-}
